@@ -21,6 +21,7 @@ public class Tp0_3 {
 
         for (int i = 0; i < valeurs.length; i++) {
             valeurs[i] = generateRandom(nMax);
+            // int index = Math.floor(valeurs[i] * tailleDensite);
             int index = (int)(valeurs[i] * tailleDensite);
             valeursCompte[index]++;
         }
