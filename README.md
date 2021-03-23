@@ -17,3 +17,9 @@ Run example
 ```sh
 java Hello arg1 arg2
 ```
+
+Compile and Run inisde package example
+```
+javac Exams/Lotto.java
+java exams.Lotto # note the small "e" in "exams" it should follow the package name
+```
